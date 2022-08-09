@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 5000
-const gotRoutes = require("./Routes/got")
+const gotRoutes = require("./routes/got")
 
 app.use("/game-of-thrones",gotRoutes)
 
